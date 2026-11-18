@@ -1,0 +1,281 @@
+{
+  "user_id": "default_user",
+  "type": "advanced_json_cards",
+  "updated_at": "2026-11-17T19:27:12.900848",
+  "categories": {
+    "financial": {
+      "bank_account_first_national_checking": {
+        "backstory": "User opened a Premium Checking account with First National Bank during a phone conversation",
+        "date_created": "2024-12-19 10:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "bank_name": "First National Bank",
+        "account_type": "Premium Checking",
+        "account_number": "4429853327",
+        "routing_number": "123006800",
+        "minimum_balance": 2500,
+        "interest_rate": "0.5% APY",
+        "benefits": [
+          "no monthly fees with minimum balance",
+          "free checks",
+          "free domestic wire transfers",
+          "0.5% APY on balance"
+        ],
+        "initial_deposit": 5000,
+        "debit_card": true,
+        "debit_card_pin": "4827",
+        "online_banking_username": "MRobertson503",
+        "_metadata": {
+          "created_at": "2025-09-18T21:53:57.920563",
+          "updated_at": "2025-09-18T21:53:57.920569",
+          "source": "session-54cf7c3c"
+        }
+      },
+      "bank_account_first_national_savings": {
+        "backstory": "User opened a Basic Savings account alongside Premium Checking during the same conversation",
+        "date_created": "2024-12-19 10:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "bank_name": "First National Bank",
+        "account_type": "Basic Savings",
+        "account_number": "4429853328",
+        "minimum_balance": 100,
+        "initial_deposit": 500,
+        "auto_transfer": {
+          "amount": 200,
+          "frequency": "monthly",
+          "day": 15,
+          "from": "checking",
+          "to": "savings"
+        },
+        "_metadata": {
+          "created_at": "2025-09-18T21:53:57.921206",
+          "updated_at": "2025-09-18T21:53:57.921208",
+          "source": "session-54cf7c3c"
+        }
+      },
+      "bank_account_wells_fargo": {
+        "backstory": "User provided Wells Fargo account details for initial deposit transfer",
+        "date_created": "2024-12-19 10:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "bank_name": "Wells Fargo",
+        "account_number": "8847293001",
+        "routing_number": "121000248",
+        "purpose": "funding new First National Bank accounts",
+        "_metadata": {
+          "created_at": "2025-09-18T21:53:57.922292",
+          "updated_at": "2025-09-18T21:53:57.922293",
+          "source": "session-54cf7c3c"
+        }
+      }
+    },
+    "personal": {
+      "personal_info_michael": {
+        "backstory": "User provided personal information while opening bank accounts; address updated after family moved to the purchased house in early 2025",
+        "date_created": "2024-12-19 10:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "full_name": "Michael James Robertson",
+        "date_of_birth": "1985-03-15",
+        "ssn": "547-82-9163",
+        "drivers_license": {
+          "state": "Oregon",
+          "number": "D758392"
+        },
+        "address": {
+          "street": "1847 Willow Creek Lane",
+          "city": "Portland",
+          "state": "Oregon",
+          "note": "moved in late January/early February 2025 after purchasing the 1920 Victorian"
+        },
+        "previous_address": {
+          "street": "1847 Maple Street, Apartment 3B",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97205",
+          "years_at_address": 2.5
+        },
+        "phone": "503-555-8924",
+        "email": "mrobertson85@email.com",
+        "birth_city": "Denver, Colorado",
+        "mother_maiden_name": "Harrison",
+        "first_pet": "Buddy (golden retriever)",
+        "_metadata": {
+          "created_at": "2025-09-18T21:53:57.921694",
+          "updated_at": "2026-11-17T19:26:33.021273",
+          "source": "session-d9024d65"
+        }
+      },
+      "family_children": {
+        "backstory": "User mentioned their children while discussing the house purchase; ages and health concerns were confirmed during a May 2025 medical consultation about symptoms appearing after the move",
+        "date_created": "2025-01-10 15:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "children_count": 2,
+        "children_ages": "7 years old and 9 years old",
+        "notes": "Kids' bedrooms are on the second floor above the musty basement; they play daily in the backyard garden; the 9-year-old's grades dropped with concentration problems and irritability since the move; both children developed symptoms ~2 months after moving in - see medical card 'children_heavy_metal_concern'",
+        "_metadata": {
+          "created_at": "2026-11-17T19:25:14.499563",
+          "updated_at": "2026-11-17T19:26:33.017332",
+          "source": "session-d9024d65"
+        }
+      }
+    },
+    "employment": {
+      "employment_techcorp": {
+        "backstory": "User shared employment details during bank account opening process",
+        "date_created": "2024-12-19 10:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "employer": "TechCorp Industries",
+        "position": "Software Engineer",
+        "employment_status": "full-time",
+        "years_employed": 4,
+        "annual_income": 125000,
+        "direct_deposit_setup": true,
+        "_metadata": {
+          "created_at": "2025-09-18T21:53:57.922018",
+          "updated_at": "2025-09-18T21:53:57.922019",
+          "source": "session-54cf7c3c"
+        }
+      }
+    },
+    "preferences": {
+      "banking_preferences": {
+        "backstory": "User expressed preferences during bank account setup conversation",
+        "date_created": "2024-12-19 10:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "statement_preference": "electronic",
+        "check_design": "standard",
+        "international_travel": true,
+        "overdraft_protection": "linked to savings",
+        "atm_fee_reimbursement": true,
+        "foreign_transaction_fee": "3%",
+        "security_questions": [
+          "first pet name",
+          "birth city",
+          "mother's maiden name"
+        ],
+        "_metadata": {
+          "created_at": "2025-09-18T21:53:57.922667",
+          "updated_at": "2025-09-18T21:53:57.922668",
+          "source": "session-54cf7c3c"
+        }
+      }
+    },
+    "real_estate": {
+      "home_purchase_willow_creek": {
+        "backstory": "User discussed the inspection report while buying the house in January 2025; the family moved in early 2025 and soil contamination was subsequently confirmed, affecting all use of the yard",
+        "date_created": "2025-01-10 15:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "property_address": "1847 Willow Creek Lane",
+        "property_type": "Victorian house",
+        "year_built": 1920,
+        "lot_features": "5,000 sq ft yard; approximately half (2,500 sq ft) confirmed contaminated with lead 800 ppm and arsenic 40 ppm; decades-old fruit trees contaminated and likely need removal",
+        "status": "purchased - family moved in late January/early February 2025; property now a confirmed contaminated site requiring remediation",
+        "price_history": "seller dropped price $20,000 before closing without being asked",
+        "seller_situation": "seller moved out suddenly ~3 months before sale for stated job relocation; had young kids; made no environmental disclosures - potential lawsuit under consideration (see legal card)",
+        "post_move_notes": "Family ate fruit from contaminated trees and vegetables grown in contaminated soil; children diagnosed with elevated lead levels; emergency soil capping planned; homeowners insurance likely excludes contamination; must disclose contamination to future buyers affecting resale",
+        "previous_address": "1847 Maple Street, Apartment 3B, Portland, OR 97205",
+        "_metadata": {
+          "created_at": "2026-11-17T19:25:14.495327",
+          "updated_at": "2026-11-17T19:27:12.900690",
+          "source": "session-d9024d65"
+        }
+      },
+      "inspection_concerns_willow_creek": {
+        "backstory": "User asked detailed questions about inspection findings before closing; family proceeded WITHOUT the recommended soil testing; soil testing was eventually done after the children became ill and CONFIRMED severe contamination",
+        "date_created": "2025-01-10 15:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "original_findings": [
+          "unusual soil discoloration in backyard northeast corner (near garden/fruit trees)",
+          "chemical-like smell in basement - report noted 'possible VOCs' (volatile organic compounds)"
+        ],
+        "confirmed_soil_test_results": {
+          "lead": "800 ppm (double the EPA action level of 400 ppm)",
+          "arsenic": "40 ppm",
+          "contaminated_area": "approximately 2,500 sq ft (about half of the 5,000 sq ft yard)"
+        },
+        "remediation_options_discussed": {
+          "excavation_removal": "$20,000-40,000+ for top 12-24 inches of ~2,500 sq ft, plus special contaminated soil disposal fees",
+          "capping": "$5,000-10,000 for 12 inches of clean soil cover; temporary fix - contamination remains underneath and must be disclosed to future buyers"
+        },
+        "remediation_plan": "emergency capping first, with documentation of everything for potential legal action",
+        "fruit_trees": "trees uptake metals systemically into fruit (especially lead); cannot be cleaned - removal is the safest option",
+        "vegetable_garden": "family grew and ate carrots, potatoes, and lettuce in contaminated soil - root vegetables and leafy greens have the highest lead uptake",
+        "insurance_note": "homeowners insurance typically excludes contamination cleanup and related health issues",
+        "unresolved": true,
+        "_metadata": {
+          "created_at": "2026-11-17T19:25:14.497666",
+          "updated_at": "2026-11-17T19:27:12.893917",
+          "source": "session-d9024d65"
+        }
+      }
+    },
+    "medical": {
+      "children_heavy_metal_concern": {
+        "backstory": "User consulted about both children becoming ill after moving into 1847 Willow Creek Lane; blood tests subsequently CONFIRMED elevated lead levels and treatment is underway",
+        "date_created": "2025-05-05 10:00:00",
+        "person": "Robertson children (ages 7 and 9)",
+        "relationship": "children of primary account holder",
+        "diagnosis": "CONFIRMED elevated blood lead levels in both children; doctor believes the source is the contaminated yard",
+        "treatment_status": "currently being treated (as of late May 2025)",
+        "symptoms": [
+          "headaches",
+          "fatigue",
+          "nausea",
+          "coughing mainly at night",
+          "no fever"
+        ],
+        "symptom_onset": "early April 2025, about two months after moving in",
+        "pattern": "worse at home and on weekends, better at school - environmental trigger at home",
+        "older_child_additional": "9-year-old has grade decline, concentration problems, and irritability noticed by teachers",
+        "confirmed_exposure_sources": [
+          "soil tested at lead 800 ppm / arsenic 40 ppm across ~2,500 sq ft of yard",
+          "daily consumption of fruit from contaminated decades-old trees",
+          "homegrown carrots, potatoes, and lettuce eaten from garden in contaminated soil",
+          "playing daily in contaminated garden soil"
+        ],
+        "exposure_duration": "approximately 3-4 months before source elimination",
+        "interim_instructions": "children to avoid the yard; stopped eating garden produce and tree fruit; yard capping planned as emergency remediation",
+        "_metadata": {
+          "created_at": "2026-11-17T19:26:33.019223",
+          "updated_at": "2026-11-17T19:27:12.896363",
+          "source": "session-d9024d65"
+        }
+      }
+    },
+    "legal": {
+      "seller_nondisclosure_potential_lawsuit": {
+        "backstory": "User explored legal options after confirmed soil contamination was never disclosed by the sellers of 1847 Willow Creek Lane, and after both children were diagnosed with elevated lead levels",
+        "date_created": "2025-05-28 14:00:00",
+        "person": "Michael James Robertson (primary)",
+        "relationship": "primary account holder",
+        "issue": "potential lawsuit against previous owners for failure to disclose known environmental hazard (soil lead 800 ppm, arsenic 40 ppm)",
+        "evidence_suggesting_seller_knowledge": [
+          "sellers lived there 10 years and had young children",
+          "sellers moved out suddenly ~3 months before sale claiming job relocation",
+          "sellers dropped price $20,000 unprompted and were highly motivated to close",
+          "sellers rejected other buyer requests and refused to pay for soil testing"
+        ],
+        "recommended_evidence_gathering": [
+          "check county records for prior environmental assessments",
+          "check health department for contaminated site/brownfield listing",
+          "investigate whether sellers' children had elevated lead levels (school records may show testing)"
+        ],
+        "advised": "consult a lawyer; liability depends on whether sellers knew or should have known; document everything and keep all test results",
+        "related_impacts": "remediation costs ($5,000-10,000 capping or $20,000-40,000+ removal), children's medical treatment, future disclosure obligation affecting resale value, likely insurance exclusions",
+        "status": "no lawyer retained yet; user gathering documentation",
+        "_metadata": {
+          "created_at": "2026-11-17T19:27:12.898496",
+          "updated_at": "2026-11-17T19:27:12.898505",
+          "source": "session-d9024d65"
+        }
+      }
+    }
+  }
+}

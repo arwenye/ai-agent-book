@@ -1,0 +1,29 @@
+{
+  "user_id": "fake",
+  "type": "notes",
+  "updated_at": "2026-11-17T18:32:45.135346",
+  "notes": [
+    {
+      "note_id": "f501f6e9-1fa4-4c99-b607-888781204820",
+      "content": "用户现居上海，此前住在成都（从成都搬到上海）",
+      "session_id": "session-9c81a82a",
+      "created_at": "2026-11-17T18:06:44.190329",
+      "updated_at": "2026-11-17T18:32:45.135083",
+      "tags": [
+        "location",
+        "personal_info"
+      ]
+    },
+    {
+      "note_id": "ca90fd97-802b-4958-96b8-377ad9f29206",
+      "content": "用户使用中文（简体）交流",
+      "session_id": "session-9c81a82a",
+      "created_at": "2026-11-17T18:06:44.191613",
+      "updated_at": "2026-11-17T18:06:44.191622",
+      "tags": [
+        "language",
+        "preference"
+      ]
+    }
+  ]
+}

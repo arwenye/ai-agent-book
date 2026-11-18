@@ -1,0 +1,67 @@
+{
+  "experiment_id": "2-4",
+  "created_at": "2026-11-16T10:05:28.146561+08:00",
+  "run_config": {
+    "model_provider": "openai",
+    "user_model_provider": "openai",
+    "model": "kimi-k3",
+    "user_model": "gpt-5.6-luna",
+    "num_trials": 1,
+    "env": "airline",
+    "agent_strategy": "tool-calling",
+    "temperature": 1.0,
+    "task_split": "test",
+    "start_index": 0,
+    "end_index": -1,
+    "task_ids": [
+      0
+    ],
+    "log_dir": "results_ablation",
+    "max_concurrency": 1,
+    "seed": 10,
+    "shuffle": 0,
+    "user_strategy": "llm",
+    "few_shot_displays_path": null
+  },
+  "ablation_config": {
+    "tone_style": "default",
+    "randomize_wiki": false,
+    "remove_tool_descriptions": false
+  },
+  "resume_receipt": null,
+  "results": [
+    {
+      "task_id": 0,
+      "reward": 0.0,
+      "info": {
+        "error": "litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.",
+        "traceback": "Traceback (most recent call last):\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/llms/openai/openai.py\", line 812, in completion\n    raise e\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/llms/openai/openai.py\", line 722, in completion\n    openai_client: OpenAI = self._get_openai_client(  # type: ignore\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/llms/openai/openai.py\", line 387, in _get_openai_client\n    _new_client = OpenAI(\n                  ^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/openai/_client.py\", line 229, in __init__\n    raise OpenAIError(\nopenai.OpenAIError: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/main.py\", line 5555, in completion\n    response = _complete_custom_openai(_dispatch_ctx)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/main.py\", line 2474, in _complete_custom_openai\n    raise e\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/main.py\", line 2446, in _complete_custom_openai\n    response = openai_chat_completions.completion(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/llms/openai/openai.py\", line 823, in completion\n    raise OpenAIError(\nlitellm.llms.openai.common_utils.OpenAIError: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/data/ywh/agent-book/ai-agent-book/chapter2/prompt-engineering/run_ablation.py\", line 465, in _run\n    res = agent.solve(\n          ^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/chapter2/prompt-engineering/ablation_agent.py\", line 89, in solve\n    env_reset_res = env.reset(task_index=task_index)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/chapter2/prompt-engineering/tau_bench/envs/base.py\", line 87, in reset\n    initial_observation = self.user.reset(instruction=self.task.instruction)\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/chapter2/prompt-engineering/tau_bench/envs/user.py\", line 167, in reset\n    return self.generate_next_message(self.messages)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/chapter2/prompt-engineering/tau_bench/envs/user.py\", line 120, in generate_next_message\n    res = self._completion(request_messages)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/chapter2/prompt-engineering/tau_bench/envs/user.py\", line 74, in _completion\n    res = completion(**kwargs)\n          ^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/utils.py\", line 1578, in wrapper\n    raise e\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/utils.py\", line 1426, in wrapper\n    result = original_function(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/main.py\", line 5684, in completion\n    raise exception_type(\n          ^^^^^^^^^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2510, in exception_type\n    raise e  # it's already mapped\n    ^^^^^^^\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2276, in exception_type\n    _map_openai_exception(\n  File \"/data/ywh/agent-book/ai-agent-book/.venv/lib/python3.11/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 442, in _map_openai_exception\n    raise InternalServerError(\nlitellm.exceptions.InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.\n",
+        "user_api_records": [
+          {
+            "requested_at": "2026-11-16T02:05:28.106037+00:00",
+            "provider": "openai",
+            "model": "gpt-5.6-luna",
+            "requested_seed": 10,
+            "messages": [
+              {
+                "role": "system",
+                "content": "You are a user interacting with an agent.\n\nInstruction: Your user id is mia_li_3668. You want to fly from New York to Seattle on May 20 (one way). You do not want to fly before 11am est. You want to fly in economy. You prefer direct flights but one stopover also fine. If there are multiple options, you prefer the one with the lowest price. You have 3 baggages. You do not want insurance. You want to use your two certificates to pay. If only one certificate can be used, you prefer using the larger one, and pay the rest with your 7447 card. You are reactive to the agent and will not say anything that is not asked. Your birthday is in your user profile so you do not prefer to provide it.\n\nRules:\n- Just generate one line at a time to simulate the user's message.\n- Do not give away all the instruction at once. Only provide the information that is necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction. For example, if the agent asks for the order id but it is not mentioned in the instruction, do not make up an order id, just say you do not remember or have it.\n- If the instruction goal is satisified, generate '###STOP###' as a standalone message without anything else to end the conversation.\n- Do not repeat the exact instruction in the conversation. Instead, use your own words to convey the same information.\n- Try to make the conversation as natural as possible, and stick to the personalities in the instruction."
+              },
+              {
+                "role": "user",
+                "content": "Hi! How can I help you today?"
+              }
+            ],
+            "elapsed_ms": 35.817,
+            "error": {
+              "type": "InternalServerError",
+              "message": "litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable."
+            }
+          }
+        ]
+      },
+      "traj": [],
+      "trial": 0
+    }
+  ]
+}

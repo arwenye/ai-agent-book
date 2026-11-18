@@ -1,0 +1,67 @@
+{
+  "success": false,
+  "final_answer": null,
+  "iterations": 4,
+  "tool_calls": [
+    {
+      "name": "find",
+      "arguments": {
+        "pattern": "*",
+        "directory": "."
+      },
+      "timestamp": 1794555945.9358203
+    },
+    {
+      "name": "find",
+      "arguments": {
+        "pattern": "*.py"
+      },
+      "timestamp": 1794555951.5069125
+    },
+    {
+      "name": "find",
+      "arguments": {
+        "pattern": "chapter1"
+      },
+      "timestamp": 1794555951.622272
+    },
+    {
+      "name": "find",
+      "arguments": {
+        "pattern": "chapter2"
+      },
+      "timestamp": 1794555951.7345018
+    },
+    {
+      "name": "find",
+      "arguments": {
+        "pattern": "*"
+      },
+      "timestamp": 1794555957.250576
+    },
+    {
+      "name": "find",
+      "arguments": {
+        "pattern": "*"
+      },
+      "timestamp": 1794555957.6545935
+    }
+  ],
+  "metrics": {
+    "ttft": 15.965083599090576,
+    "ttft_per_iteration": [
+      15.965083599090576,
+      5.435328006744385,
+      5.105591773986816
+    ],
+    "total_time": 30.47365164756775,
+    "iterations": 4,
+    "tool_calls": 6,
+    "cache_hits": 0,
+    "cache_misses": 3,
+    "prompt_tokens": 5598,
+    "completion_tokens": 482,
+    "cached_tokens": 0
+  },
+  "mode": "shuffled_tools"
+}

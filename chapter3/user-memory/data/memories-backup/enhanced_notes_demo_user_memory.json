@@ -1,0 +1,42 @@
+{
+  "user_id": "demo_user",
+  "type": "notes",
+  "updated_at": "2026-11-17T16:06:19.695452",
+  "notes": [
+    {
+      "note_id": "ed5a9b73-8694-498d-992d-e05e31a99624",
+      "content": "User's name is Alice. She works as a product manager at TechCorp.",
+      "session_id": "session-8a263d7e",
+      "created_at": "2026-11-17T16:06:19.692819",
+      "updated_at": "2026-11-17T16:06:19.692839",
+      "tags": [
+        "identity",
+        "profession"
+      ]
+    },
+    {
+      "note_id": "88cd80ef-6a7e-453e-8237-3f8e67217080",
+      "content": "Alice's technical preferences: prefers Python for scripting, uses VS Code as her IDE, and likes dark themes. Code examples and scripting help should default to Python, and editor-related advice should be tailored to VS Code.",
+      "session_id": "session-8a263d7e",
+      "created_at": "2026-11-17T16:06:19.694059",
+      "updated_at": "2026-11-17T16:06:19.694068",
+      "tags": [
+        "preferences",
+        "technical",
+        "tools"
+      ]
+    },
+    {
+      "note_id": "ba4e5092-ce10-4f8d-a86e-1d8c53157198",
+      "content": "Alice is currently working on a new mobile app project for TechCorp (her company). Details about the app's purpose, target platform, and stage of development have not yet been shared.",
+      "session_id": "session-8a263d7e",
+      "created_at": "2026-11-17T16:06:19.695274",
+      "updated_at": "2026-11-17T16:06:19.695284",
+      "tags": [
+        "work",
+        "project",
+        "mobile"
+      ]
+    }
+  ]
+}

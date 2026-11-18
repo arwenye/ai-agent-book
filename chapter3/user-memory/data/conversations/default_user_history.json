@@ -1,0 +1,1322 @@
+{
+  "user_id": "default_user",
+  "updated_at": "2026-11-17T19:24:17.110696",
+  "conversations": [
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Hi, I'm reviewing the inspection report for the house I'm buying and have questions",
+      "assistant_message": "Happy to help clarify. Which property?",
+      "timestamp": "2026-11-17T19:24:16.789718",
+      "turn_number": 1
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "1847 Willow Creek Lane",
+      "assistant_message": "Ah yes, the Victorian with the large lot",
+      "timestamp": "2026-11-17T19:24:16.790465",
+      "turn_number": 2
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Right. The report mentions 'unusual soil discoloration'",
+      "assistant_message": "Yes, in the backyard northeast corner",
+      "timestamp": "2026-11-17T19:24:16.790978",
+      "turn_number": 3
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Is that concerning?",
+      "assistant_message": "Could be various things",
+      "timestamp": "2026-11-17T19:24:16.791489",
+      "turn_number": 4
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Like what?",
+      "assistant_message": "Old septic system, buried debris, mineral deposits",
+      "timestamp": "2026-11-17T19:24:16.792026",
+      "turn_number": 5
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "The seller said they didn't know about it",
+      "assistant_message": "It might predate their ownership",
+      "timestamp": "2026-11-17T19:24:16.792595",
+      "turn_number": 6
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "The house is from 1920",
+      "assistant_message": "Lots of history then",
+      "timestamp": "2026-11-17T19:24:16.793205",
+      "turn_number": 7
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "What else could cause discoloration?",
+      "assistant_message": "Previous structures, old fuel tanks",
+      "timestamp": "2026-11-17T19:24:16.793826",
+      "turn_number": 8
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Fuel tanks?",
+      "assistant_message": "Homes this age often had heating oil tanks",
+      "timestamp": "2026-11-17T19:24:16.794473",
+      "turn_number": 9
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Underground?",
+      "assistant_message": "Common practice until the 1960s",
+      "timestamp": "2026-11-17T19:24:16.795149",
+      "turn_number": 10
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Would that be documented?",
+      "assistant_message": "Not always, especially if removed",
+      "timestamp": "2026-11-17T19:24:16.795852",
+      "turn_number": 11
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Should I test the soil?",
+      "assistant_message": "It's an option but not required",
+      "timestamp": "2026-11-17T19:24:16.796587",
+      "turn_number": 12
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "The seller doesn't want delays",
+      "assistant_message": "They're motivated to close?",
+      "timestamp": "2026-11-17T19:24:16.798268",
+      "turn_number": 13
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Very. They already moved out",
+      "assistant_message": "How long was it vacant?",
+      "timestamp": "2026-11-17T19:24:16.799086",
+      "turn_number": 14
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "About three months",
+      "assistant_message": "Did they disclose why they moved?",
+      "timestamp": "2026-11-17T19:24:16.799932",
+      "turn_number": 15
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Job relocation",
+      "assistant_message": "Sudden?",
+      "timestamp": "2026-11-17T19:24:16.800832",
+      "turn_number": 16
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Seemed like it",
+      "assistant_message": "Interesting timing",
+      "timestamp": "2026-11-17T19:24:16.803170",
+      "turn_number": 17
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "What do you mean?",
+      "assistant_message": "Sometimes people move for other reasons",
+      "timestamp": "2026-11-17T19:24:16.804218",
+      "turn_number": 18
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Like?",
+      "assistant_message": "Environmental concerns, neighbor disputes",
+      "timestamp": "2026-11-17T19:24:16.805269",
+      "turn_number": 19
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "The neighbors seem nice",
+      "assistant_message": "You've met them?",
+      "timestamp": "2026-11-17T19:24:16.806315",
+      "turn_number": 20
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Briefly during a showing",
+      "assistant_message": "Did they mention anything?",
+      "timestamp": "2026-11-17T19:24:16.807367",
+      "turn_number": 21
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Just that the previous family had young kids",
+      "assistant_message": "Like yours?",
+      "timestamp": "2026-11-17T19:24:16.808449",
+      "turn_number": 22
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Yes, two under 10",
+      "assistant_message": "Same bedrooms?",
+      "timestamp": "2026-11-17T19:24:16.809611",
+      "turn_number": 23
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "My kids love the back bedrooms",
+      "assistant_message": "Those face the backyard?",
+      "timestamp": "2026-11-17T19:24:16.810783",
+      "turn_number": 24
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Yes, overlooking the garden area",
+      "assistant_message": "Where the discoloration is",
+      "timestamp": "2026-11-17T19:24:16.811954",
+      "turn_number": 25
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Right",
+      "assistant_message": "The report mentions old fruit trees",
+      "timestamp": "2026-11-17T19:24:16.813189",
+      "turn_number": 26
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Yes, we're excited about those",
+      "assistant_message": "How old are they?",
+      "timestamp": "2026-11-17T19:24:16.814420",
+      "turn_number": 27
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Report says 30-40 years",
+      "assistant_message": "Historical pesticide use was different then",
+      "timestamp": "2026-11-17T19:24:16.815681",
+      "turn_number": 28
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Pesticides?",
+      "assistant_message": "Arsenate was common in orchards",
+      "timestamp": "2026-11-17T19:24:16.816988",
+      "turn_number": 29
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Arsenic?",
+      "assistant_message": "Lead arsenate specifically",
+      "timestamp": "2026-11-17T19:24:16.818433",
+      "turn_number": 30
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "That sounds toxic",
+      "assistant_message": "It persists in soil",
+      "timestamp": "2026-11-17T19:24:16.819791",
+      "turn_number": 31
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "For how long?",
+      "assistant_message": "Decades",
+      "timestamp": "2026-11-17T19:24:16.821192",
+      "turn_number": 32
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Should I be worried?",
+      "assistant_message": "Testing would tell you",
+      "timestamp": "2026-11-17T19:24:16.822596",
+      "turn_number": 33
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "How much does that cost?",
+      "assistant_message": "$300-500 for comprehensive testing",
+      "timestamp": "2026-11-17T19:24:16.824069",
+      "turn_number": 34
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "The seller won't pay",
+      "assistant_message": "You could negotiate",
+      "timestamp": "2026-11-17T19:24:16.825626",
+      "turn_number": 35
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "They rejected other requests",
+      "assistant_message": "Firm on price?",
+      "timestamp": "2026-11-17T19:24:16.827149",
+      "turn_number": 36
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Actually dropped it $20,000 last month",
+      "assistant_message": "Without you asking?",
+      "timestamp": "2026-11-17T19:24:16.828719",
+      "turn_number": 37
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Yes, surprised us",
+      "assistant_message": "That's unusual in this market",
+      "timestamp": "2026-11-17T19:24:16.830221",
+      "turn_number": 38
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "We thought we were lucky",
+      "assistant_message": "Maybe",
+      "timestamp": "2026-11-17T19:24:16.831700",
+      "turn_number": 39
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "You sound skeptical",
+      "assistant_message": "Price drops have reasons",
+      "timestamp": "2026-11-17T19:24:16.833300",
+      "turn_number": 40
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Like environmental issues?",
+      "assistant_message": "Among other things",
+      "timestamp": "2026-11-17T19:24:16.834734",
+      "turn_number": 41
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "The basement has a weird smell",
+      "assistant_message": "Musty?",
+      "timestamp": "2026-11-17T19:24:16.836189",
+      "turn_number": 42
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Chemical-like",
+      "assistant_message": "Did I note that?",
+      "timestamp": "2026-11-17T19:24:16.837744",
+      "turn_number": 43
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "You said 'possible VOCs'",
+      "assistant_message": "Volatile organic compounds",
+      "timestamp": "2026-11-17T19:24:16.839144",
+      "turn_number": 44
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "From what?",
+      "assistant_message": "Could be many sources",
+      "timestamp": "2026-11-17T19:24:16.840580",
+      "turn_number": 45
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Such as?",
+      "assistant_message": "Old chemicals, fuel, solvents",
+      "timestamp": "2026-11-17T19:24:16.842026",
+      "turn_number": 46
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Stored in the basement?",
+      "assistant_message": "Or seeping from soil",
+      "timestamp": "2026-11-17T19:24:16.843406",
+      "turn_number": 47
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "From that tank you mentioned?",
+      "assistant_message": "Possible if one existed",
+      "timestamp": "2026-11-17T19:24:16.844822",
+      "turn_number": 48
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "How would I know?",
+      "assistant_message": "Ground penetrating radar",
+      "timestamp": "2026-11-17T19:24:16.846248",
+      "turn_number": 49
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "More testing",
+      "assistant_message": "Or check historical records",
+      "timestamp": "2026-11-17T19:24:16.847603",
+      "turn_number": 50
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Where?",
+      "assistant_message": "City permits, fire department",
+      "timestamp": "2026-11-17T19:24:16.849010",
+      "turn_number": 51
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Would they have 1920s records?",
+      "assistant_message": "Sometimes, or aerial photos",
+      "timestamp": "2026-11-17T19:24:16.850366",
+      "turn_number": 52
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "This is getting complicated",
+      "assistant_message": "Due diligence is important",
+      "timestamp": "2026-11-17T19:24:16.851707",
+      "turn_number": 53
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "We close in two weeks",
+      "assistant_message": "That's soon",
+      "timestamp": "2026-11-17T19:24:16.853090",
+      "turn_number": 54
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "Too soon?",
+      "assistant_message": "For proper testing, maybe",
+      "timestamp": "2026-11-17T19:24:16.854353",
+      "turn_number": 55
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "What do you recommend?",
+      "assistant_message": "At minimum, basic soil test",
+      "timestamp": "2026-11-17T19:24:16.855615",
+      "turn_number": 56
+    },
+    {
+      "session_id": "eval_home_inspection_discussion",
+      "user_message": "I'll think about it",
+      "assistant_message": "Don't wait too long",
+      "timestamp": "2026-11-17T19:24:16.856970",
+      "turn_number": 57
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "My kids have been sick since we moved and I'm concerned",
+      "assistant_message": "I understand. Tell me about their symptoms",
+      "timestamp": "2026-11-17T19:24:16.858342",
+      "turn_number": 58
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Headaches, fatigue, some nausea",
+      "assistant_message": "Both children?",
+      "timestamp": "2026-11-17T19:24:16.859610",
+      "turn_number": 59
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Yes, my 7 and 9 year old",
+      "assistant_message": "When did this start?",
+      "timestamp": "2026-11-17T19:24:16.860900",
+      "turn_number": 60
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "About two months after moving",
+      "assistant_message": "So around April?",
+      "timestamp": "2026-11-17T19:24:16.862129",
+      "turn_number": 61
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Yes, early April",
+      "assistant_message": "Any fever?",
+      "timestamp": "2026-11-17T19:24:16.863369",
+      "turn_number": 62
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "No, no fever",
+      "assistant_message": "Respiratory symptoms?",
+      "timestamp": "2026-11-17T19:24:16.864685",
+      "turn_number": 63
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Some coughing, mainly at night",
+      "assistant_message": "Is it worse at home?",
+      "timestamp": "2026-11-17T19:24:16.865919",
+      "turn_number": 64
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Actually, yes",
+      "assistant_message": "Better when they're at school?",
+      "timestamp": "2026-11-17T19:24:16.867150",
+      "turn_number": 65
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Now that you mention it, yes",
+      "assistant_message": "Weekends worse than weekdays?",
+      "timestamp": "2026-11-17T19:24:16.868394",
+      "turn_number": 66
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Definitely",
+      "assistant_message": "Suggests environmental trigger",
+      "timestamp": "2026-11-17T19:24:16.869644",
+      "turn_number": 67
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Like allergies?",
+      "assistant_message": "Possibly, or home environment",
+      "timestamp": "2026-11-17T19:24:16.870825",
+      "turn_number": 68
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "The house is old but we cleaned thoroughly",
+      "assistant_message": "How old?",
+      "timestamp": "2026-11-17T19:24:16.872015",
+      "turn_number": 69
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "1920s",
+      "assistant_message": "Pre-1978 is concerning",
+      "timestamp": "2026-11-17T19:24:16.873272",
+      "turn_number": 70
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Why 1978?",
+      "assistant_message": "Lead paint ban",
+      "timestamp": "2026-11-17T19:24:16.874454",
+      "turn_number": 71
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Oh, we haven't renovated yet",
+      "assistant_message": "Good, renovation can release lead",
+      "timestamp": "2026-11-17T19:24:16.875652",
+      "turn_number": 72
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "We were planning to",
+      "assistant_message": "Test first",
+      "timestamp": "2026-11-17T19:24:16.876888",
+      "turn_number": 73
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "For lead?",
+      "assistant_message": "Among other things",
+      "timestamp": "2026-11-17T19:24:16.878121",
+      "turn_number": 74
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "What else?",
+      "assistant_message": "Asbestos, mold",
+      "timestamp": "2026-11-17T19:24:16.879370",
+      "turn_number": 75
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "The basement is musty",
+      "assistant_message": "Do the kids play there?",
+      "timestamp": "2026-11-17T19:24:16.880630",
+      "turn_number": 76
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "No, but their bedrooms are above it",
+      "assistant_message": "First or second floor?",
+      "timestamp": "2026-11-17T19:24:16.881895",
+      "turn_number": 77
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Second floor",
+      "assistant_message": "That's better for basement issues",
+      "timestamp": "2026-11-17T19:24:16.883174",
+      "turn_number": 78
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "They love the backyard though",
+      "assistant_message": "Spend much time outside?",
+      "timestamp": "2026-11-17T19:24:16.884467",
+      "turn_number": 79
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Daily, especially the garden",
+      "assistant_message": "Do they eat from the garden?",
+      "timestamp": "2026-11-17T19:24:16.885775",
+      "turn_number": 80
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "The fruit trees, yes",
+      "assistant_message": "Old trees?",
+      "timestamp": "2026-11-17T19:24:16.887165",
+      "turn_number": 81
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Decades old",
+      "assistant_message": "Any vegetables?",
+      "timestamp": "2026-11-17T19:24:16.888512",
+      "turn_number": 82
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "We planted some",
+      "assistant_message": "In existing soil?",
+      "timestamp": "2026-11-17T19:24:16.889873",
+      "turn_number": 83
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Yes, tilled the old garden",
+      "assistant_message": "Did you test the soil?",
+      "timestamp": "2026-11-17T19:24:16.891248",
+      "turn_number": 84
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "No, should we have?",
+      "assistant_message": "For old gardens, yes",
+      "timestamp": "2026-11-17T19:24:16.892618",
+      "turn_number": 85
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Why?",
+      "assistant_message": "Historical pesticide use",
+      "timestamp": "2026-11-17T19:24:16.894042",
+      "turn_number": 86
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Is that still a problem?",
+      "assistant_message": "Heavy metals persist",
+      "timestamp": "2026-11-17T19:24:16.895509",
+      "turn_number": 87
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Heavy metals?",
+      "assistant_message": "Lead, arsenic, mercury",
+      "timestamp": "2026-11-17T19:24:16.896957",
+      "turn_number": 88
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "From pesticides?",
+      "assistant_message": "Old formulations, yes",
+      "timestamp": "2026-11-17T19:24:16.898386",
+      "turn_number": 89
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Could that cause their symptoms?",
+      "assistant_message": "Possibly",
+      "timestamp": "2026-11-17T19:24:16.899831",
+      "turn_number": 90
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "What symptoms specifically?",
+      "assistant_message": "Fatigue, headaches, cognitive issues",
+      "timestamp": "2026-11-17T19:24:16.901301",
+      "turn_number": 91
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "My older one's grades dropped",
+      "assistant_message": "Since moving?",
+      "timestamp": "2026-11-17T19:24:16.902786",
+      "turn_number": 92
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Yes, teachers noticed",
+      "assistant_message": "Concentration problems?",
+      "timestamp": "2026-11-17T19:24:16.904289",
+      "turn_number": 93
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Yes, and irritability",
+      "assistant_message": "Classic signs",
+      "timestamp": "2026-11-17T19:24:16.905804",
+      "turn_number": 94
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Of what?",
+      "assistant_message": "Low-level poisoning",
+      "timestamp": "2026-11-17T19:24:16.907318",
+      "turn_number": 95
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Poisoning?",
+      "assistant_message": "Not acute, but chronic exposure",
+      "timestamp": "2026-11-17T19:24:16.908890",
+      "turn_number": 96
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "From our yard?",
+      "assistant_message": "Possibly",
+      "timestamp": "2026-11-17T19:24:16.910426",
+      "turn_number": 97
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "We need to test",
+      "assistant_message": "I'll order blood work",
+      "timestamp": "2026-11-17T19:24:16.911992",
+      "turn_number": 98
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "For what?",
+      "assistant_message": "Lead levels, heavy metals panel",
+      "timestamp": "2026-11-17T19:24:16.913574",
+      "turn_number": 99
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Is this serious?",
+      "assistant_message": "If elevated, yes",
+      "timestamp": "2026-11-17T19:24:16.915234",
+      "turn_number": 100
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "What do we do?",
+      "assistant_message": "First, confirm with testing",
+      "timestamp": "2026-11-17T19:24:16.916840",
+      "turn_number": 101
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Then?",
+      "assistant_message": "Depends on levels",
+      "timestamp": "2026-11-17T19:24:16.918456",
+      "turn_number": 102
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "If they're high?",
+      "assistant_message": "Chelation therapy potentially",
+      "timestamp": "2026-11-17T19:24:16.920073",
+      "turn_number": 103
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "That sounds serious",
+      "assistant_message": "It can be",
+      "timestamp": "2026-11-17T19:24:16.921734",
+      "turn_number": 104
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Long-term effects?",
+      "assistant_message": "Depends on exposure duration",
+      "timestamp": "2026-11-17T19:24:16.923386",
+      "turn_number": 105
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Three months so far",
+      "assistant_message": "Early intervention is key",
+      "timestamp": "2026-11-17T19:24:16.925143",
+      "turn_number": 106
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Should we move?",
+      "assistant_message": "Let's test first",
+      "timestamp": "2026-11-17T19:24:16.926849",
+      "turn_number": 107
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "The previous family had kids",
+      "assistant_message": "Did they move suddenly?",
+      "timestamp": "2026-11-17T19:24:16.928540",
+      "turn_number": 108
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Actually, yes",
+      "assistant_message": "Interesting",
+      "timestamp": "2026-11-17T19:24:16.930262",
+      "turn_number": 109
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "You think they knew?",
+      "assistant_message": "Hard to say",
+      "timestamp": "2026-11-17T19:24:16.931997",
+      "turn_number": 110
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "They didn't disclose anything",
+      "assistant_message": "They should have if known",
+      "timestamp": "2026-11-17T19:24:16.933777",
+      "turn_number": 111
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Legal obligation?",
+      "assistant_message": "Yes, for known hazards",
+      "timestamp": "2026-11-17T19:24:16.935536",
+      "turn_number": 112
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "What if they suspected?",
+      "assistant_message": "Gray area",
+      "timestamp": "2026-11-17T19:24:16.937315",
+      "turn_number": 113
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "This is scary",
+      "assistant_message": "Let's get facts first",
+      "timestamp": "2026-11-17T19:24:16.939098",
+      "turn_number": 114
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "When for blood work?",
+      "assistant_message": "Today if possible",
+      "timestamp": "2026-11-17T19:24:16.940923",
+      "turn_number": 115
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Results?",
+      "assistant_message": "48-72 hours",
+      "timestamp": "2026-11-17T19:24:16.942733",
+      "turn_number": 116
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "Should they avoid the yard?",
+      "assistant_message": "Yes, temporarily",
+      "timestamp": "2026-11-17T19:24:16.944558",
+      "turn_number": 117
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "And the fruit?",
+      "assistant_message": "Definitely stop eating it",
+      "timestamp": "2026-11-17T19:24:16.946412",
+      "turn_number": 118
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "We've been eating it daily",
+      "assistant_message": "Note that for the file",
+      "timestamp": "2026-11-17T19:24:16.948332",
+      "turn_number": 119
+    },
+    {
+      "session_id": "eval_pediatrician_visit",
+      "user_message": "This is a nightmare",
+      "assistant_message": "We'll figure it out",
+      "timestamp": "2026-11-17T19:24:16.950217",
+      "turn_number": 120
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "I need help with soil remediation for my yard",
+      "assistant_message": "What kind of problems are you having?",
+      "timestamp": "2026-11-17T19:24:16.952213",
+      "turn_number": 121
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Contamination issues",
+      "assistant_message": "Chemical or biological?",
+      "timestamp": "2026-11-17T19:24:16.954129",
+      "turn_number": 122
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Heavy metals, apparently",
+      "assistant_message": "That's serious. Test results?",
+      "timestamp": "2026-11-17T19:24:16.956039",
+      "turn_number": 123
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Lead at 800 ppm, arsenic at 40 ppm",
+      "assistant_message": "Those are high levels",
+      "timestamp": "2026-11-17T19:24:16.957972",
+      "turn_number": 124
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "EPA says action level is 400 for lead",
+      "assistant_message": "You're double that",
+      "timestamp": "2026-11-17T19:24:16.959903",
+      "turn_number": 125
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "What are my options?",
+      "assistant_message": "Removal or capping",
+      "timestamp": "2026-11-17T19:24:16.961860",
+      "turn_number": 126
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Removal?",
+      "assistant_message": "Excavate contaminated soil",
+      "timestamp": "2026-11-17T19:24:16.963818",
+      "turn_number": 127
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "How deep?",
+      "assistant_message": "Usually top 12-24 inches",
+      "timestamp": "2026-11-17T19:24:16.965800",
+      "turn_number": 128
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "That's a lot",
+      "assistant_message": "It's expensive",
+      "timestamp": "2026-11-17T19:24:16.967785",
+      "turn_number": 129
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "How expensive?",
+      "assistant_message": "$100-200 per cubic yard",
+      "timestamp": "2026-11-17T19:24:16.969798",
+      "turn_number": 130
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "My yard is 5,000 square feet",
+      "assistant_message": "The contaminated area?",
+      "timestamp": "2026-11-17T19:24:16.971806",
+      "turn_number": 131
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "About half",
+      "assistant_message": "So 2,500 square feet",
+      "timestamp": "2026-11-17T19:24:16.973859",
+      "turn_number": 132
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Cost estimate?",
+      "assistant_message": "Roughly $20,000-40,000",
+      "timestamp": "2026-11-17T19:24:16.975964",
+      "turn_number": 133
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "That's huge",
+      "assistant_message": "Plus disposal fees",
+      "timestamp": "2026-11-17T19:24:16.978034",
+      "turn_number": 134
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "There's more?",
+      "assistant_message": "Contaminated soil needs special disposal",
+      "timestamp": "2026-11-17T19:24:16.980098",
+      "turn_number": 135
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "What about capping?",
+      "assistant_message": "Cover with clean soil",
+      "timestamp": "2026-11-17T19:24:16.982181",
+      "turn_number": 136
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "How much?",
+      "assistant_message": "12 inches minimum",
+      "timestamp": "2026-11-17T19:24:16.984261",
+      "turn_number": 137
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Cost?",
+      "assistant_message": "$5,000-10,000",
+      "timestamp": "2026-11-17T19:24:16.986375",
+      "turn_number": 138
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "More reasonable",
+      "assistant_message": "But it's temporary",
+      "timestamp": "2026-11-17T19:24:16.988494",
+      "turn_number": 139
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Temporary?",
+      "assistant_message": "Contamination remains underneath",
+      "timestamp": "2026-11-17T19:24:16.990646",
+      "turn_number": 140
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Forever?",
+      "assistant_message": "Until removed",
+      "timestamp": "2026-11-17T19:24:16.992811",
+      "turn_number": 141
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Affects property value?",
+      "assistant_message": "Must be disclosed",
+      "timestamp": "2026-11-17T19:24:16.994979",
+      "turn_number": 142
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "To future buyers?",
+      "assistant_message": "Yes, it's a known hazard",
+      "timestamp": "2026-11-17T19:24:16.997176",
+      "turn_number": 143
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "We just bought the place",
+      "assistant_message": "Was it disclosed to you?",
+      "timestamp": "2026-11-17T19:24:16.999377",
+      "turn_number": 144
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "No",
+      "assistant_message": "That's a problem",
+      "timestamp": "2026-11-17T19:24:17.001596",
+      "turn_number": 145
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Legal problem?",
+      "assistant_message": "Potentially",
+      "timestamp": "2026-11-17T19:24:17.003810",
+      "turn_number": 146
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "The seller knew?",
+      "assistant_message": "If they tested, yes",
+      "timestamp": "2026-11-17T19:24:17.006063",
+      "turn_number": 147
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "How would I know?",
+      "assistant_message": "Check county records",
+      "timestamp": "2026-11-17T19:24:17.008308",
+      "turn_number": 148
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "For what?",
+      "assistant_message": "Environmental assessments",
+      "timestamp": "2026-11-17T19:24:17.010575",
+      "turn_number": 149
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Would remediation be filed?",
+      "assistant_message": "Usually, yes",
+      "timestamp": "2026-11-17T19:24:17.012863",
+      "turn_number": 150
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Nothing was disclosed",
+      "assistant_message": "Check with the health department",
+      "timestamp": "2026-11-17T19:24:17.015234",
+      "turn_number": 151
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Why?",
+      "assistant_message": "They track contaminated sites",
+      "timestamp": "2026-11-17T19:24:17.017557",
+      "turn_number": 152
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "My property might be listed?",
+      "assistant_message": "Possibly",
+      "timestamp": "2026-11-17T19:24:17.019892",
+      "turn_number": 153
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "As what?",
+      "assistant_message": "Brownfield or contaminated site",
+      "timestamp": "2026-11-17T19:24:17.022255",
+      "turn_number": 154
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "That affects everything",
+      "assistant_message": "Insurance, loans, resale",
+      "timestamp": "2026-11-17T19:24:17.024599",
+      "turn_number": 155
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Our homeowners insurance",
+      "assistant_message": "Might not cover contamination",
+      "timestamp": "2026-11-17T19:24:17.026969",
+      "turn_number": 156
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Cleanup?",
+      "assistant_message": "Usually excluded",
+      "timestamp": "2026-11-17T19:24:17.029360",
+      "turn_number": 157
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Health issues?",
+      "assistant_message": "Also typically excluded",
+      "timestamp": "2026-11-17T19:24:17.031748",
+      "turn_number": 158
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "My kids have elevated lead levels",
+      "assistant_message": "From your yard?",
+      "timestamp": "2026-11-17T19:24:17.034163",
+      "turn_number": 159
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Doctor thinks so",
+      "assistant_message": "That's serious",
+      "timestamp": "2026-11-17T19:24:17.036579",
+      "turn_number": 160
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "We're treating it",
+      "assistant_message": "Good",
+      "timestamp": "2026-11-17T19:24:17.039032",
+      "turn_number": 161
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "What about the fruit trees?",
+      "assistant_message": "In contaminated soil?",
+      "timestamp": "2026-11-17T19:24:17.041497",
+      "turn_number": 162
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Yes",
+      "assistant_message": "They uptake metals",
+      "timestamp": "2026-11-17T19:24:17.043963",
+      "turn_number": 163
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Into the fruit?",
+      "assistant_message": "Yes, especially lead",
+      "timestamp": "2026-11-17T19:24:17.046455",
+      "turn_number": 164
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "We ate so much",
+      "assistant_message": "Stop immediately",
+      "timestamp": "2026-11-17T19:24:17.048960",
+      "turn_number": 165
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Already did",
+      "assistant_message": "Trees might need removal",
+      "timestamp": "2026-11-17T19:24:17.051471",
+      "turn_number": 166
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "They're beautiful though",
+      "assistant_message": "But contaminated",
+      "timestamp": "2026-11-17T19:24:17.054014",
+      "turn_number": 167
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Can they be cleaned?",
+      "assistant_message": "No, it's systemic",
+      "timestamp": "2026-11-17T19:24:17.056613",
+      "turn_number": 168
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "So removal",
+      "assistant_message": "Safest option",
+      "timestamp": "2026-11-17T19:24:17.059154",
+      "turn_number": 169
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "This gets worse and worse",
+      "assistant_message": "What about vegetables?",
+      "timestamp": "2026-11-17T19:24:17.061719",
+      "turn_number": 170
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "We planted a garden",
+      "assistant_message": "In the contaminated soil?",
+      "timestamp": "2026-11-17T19:24:17.064286",
+      "turn_number": 171
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Yes",
+      "assistant_message": "Don't eat anything",
+      "timestamp": "2026-11-17T19:24:17.066876",
+      "turn_number": 172
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "We already have",
+      "assistant_message": "Root vegetables?",
+      "timestamp": "2026-11-17T19:24:17.069491",
+      "turn_number": 173
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Carrots, potatoes",
+      "assistant_message": "Highest contamination",
+      "timestamp": "2026-11-17T19:24:17.072129",
+      "turn_number": 174
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Of course",
+      "assistant_message": "Leafy greens too",
+      "timestamp": "2026-11-17T19:24:17.074779",
+      "turn_number": 175
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "We grew lettuce",
+      "assistant_message": "Very bad for lead uptake",
+      "timestamp": "2026-11-17T19:24:17.077449",
+      "turn_number": 176
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Can we sue the seller?",
+      "assistant_message": "Talk to a lawyer",
+      "timestamp": "2026-11-17T19:24:17.080128",
+      "turn_number": 177
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "For not disclosing?",
+      "assistant_message": "If they knew or should have known",
+      "timestamp": "2026-11-17T19:24:17.082825",
+      "turn_number": 178
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "They lived there 10 years",
+      "assistant_message": "With children?",
+      "timestamp": "2026-11-17T19:24:17.085536",
+      "turn_number": 179
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Yes",
+      "assistant_message": "Check if their kids were tested",
+      "timestamp": "2026-11-17T19:24:17.088249",
+      "turn_number": 180
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "How?",
+      "assistant_message": "School records might show",
+      "timestamp": "2026-11-17T19:24:17.090979",
+      "turn_number": 181
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "For lead testing?",
+      "assistant_message": "If levels were elevated",
+      "timestamp": "2026-11-17T19:24:17.093741",
+      "turn_number": 182
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "That would prove they knew",
+      "assistant_message": "Potentially",
+      "timestamp": "2026-11-17T19:24:17.096490",
+      "turn_number": 183
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "This is overwhelming",
+      "assistant_message": "Start with emergency remediation",
+      "timestamp": "2026-11-17T19:24:17.099266",
+      "turn_number": 184
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Capping?",
+      "assistant_message": "For now, yes",
+      "timestamp": "2026-11-17T19:24:17.102154",
+      "turn_number": 185
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "Then legal action?",
+      "assistant_message": "Document everything first",
+      "timestamp": "2026-11-17T19:24:17.104980",
+      "turn_number": 186
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "I will",
+      "assistant_message": "Keep all test results",
+      "timestamp": "2026-11-17T19:24:17.107805",
+      "turn_number": 187
+    },
+    {
+      "session_id": "eval_garden_supply_conversation",
+      "user_message": "For the lawsuit?",
+      "assistant_message": "For everything",
+      "timestamp": "2026-11-17T19:24:17.110644",
+      "turn_number": 188
+    }
+  ]
+}

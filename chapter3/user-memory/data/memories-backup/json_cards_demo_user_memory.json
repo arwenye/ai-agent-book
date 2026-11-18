@@ -1,0 +1,49 @@
+{
+  "user_id": "demo_user",
+  "type": "json_cards",
+  "updated_at": "2026-11-17T16:10:55.289014",
+  "memory_cards": {
+    "personal": {
+      "profile": {
+        "name": {
+          "value": "Alice",
+          "source": "session-5bb596d0",
+          "updated_at": "2026-11-17T16:10:55.283179"
+        }
+      },
+      "preferences": {
+        "programming_language": {
+          "value": "Prefers Python for scripting",
+          "source": "session-5bb596d0",
+          "updated_at": "2026-11-17T16:10:55.285537"
+        },
+        "ide": {
+          "value": "Uses VS Code as IDE",
+          "source": "session-5bb596d0",
+          "updated_at": "2026-11-17T16:10:55.286697"
+        },
+        "theme": {
+          "value": "Likes dark themes",
+          "source": "session-5bb596d0",
+          "updated_at": "2026-11-17T16:10:55.287781"
+        }
+      }
+    },
+    "work": {
+      "professional": {
+        "role": {
+          "value": "Product Manager at TechCorp",
+          "source": "session-5bb596d0",
+          "updated_at": "2026-11-17T16:10:55.284355"
+        }
+      },
+      "projects": {
+        "current": {
+          "value": "Working on a new mobile app project for TechCorp (stage, platform, and purpose not yet specified)",
+          "source": "session-5bb596d0",
+          "updated_at": "2026-11-17T16:10:55.288864"
+        }
+      }
+    }
+  }
+}

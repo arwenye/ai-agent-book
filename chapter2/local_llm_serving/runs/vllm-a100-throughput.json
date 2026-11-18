@@ -1,0 +1,46 @@
+{
+  "backend": "vllm",
+  "base_url": "http://localhost:8000/v1",
+  "model": "Qwen/Qwen3-0.6B",
+  "results": [
+    {
+      "scenario": "throughput",
+      "repeats": 5,
+      "ttft_mean_s": 0.12046055756509304,
+      "decode_tps_mean": 184.40590124761985,
+      "output_tokens_mean": 256.0,
+      "runs": [
+        {
+          "ttft": 0.42351011745631695,
+          "total": 1.8258931785821915,
+          "output_tokens": 256.0,
+          "decode_tps": 182.54641481085463
+        },
+        {
+          "ttft": 0.04460424371063709,
+          "total": 1.4376381635665894,
+          "output_tokens": 256.0,
+          "decode_tps": 183.771548094444
+        },
+        {
+          "ttft": 0.045095108449459076,
+          "total": 1.4256723504513502,
+          "output_tokens": 256.0,
+          "decode_tps": 185.42968275269405
+        },
+        {
+          "ttft": 0.043613290414214134,
+          "total": 1.4258113466203213,
+          "output_tokens": 256.0,
+          "decode_tps": 185.2122413647979
+        },
+        {
+          "ttft": 0.04548002779483795,
+          "total": 1.4287432618439198,
+          "output_tokens": 256.0,
+          "decode_tps": 185.0696192153087
+        }
+      ]
+    }
+  ]
+}

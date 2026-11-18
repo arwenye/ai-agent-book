@@ -1,0 +1,71 @@
+{
+  "experiment_id": "3-user-memory",
+  "protocol_version": "1.0.0",
+  "title": "长期用户记忆系统：对话与后台处理分离架构",
+  "manuscript_contract": {
+    "hypothesis": "将记忆写入与对话响应分离（后台异步处理），能在不阻塞响应的前提下持续积累用户长期信息；记忆格式越结构化（notes → advanced_json_cards），信息密度越高，但提取难度和幻觉风险也同步增加",
+    "independent_variables": [
+      "memory_mode: notes | enhanced_notes | json_cards | advanced_json_cards",
+      "conversation_interval: 1（每轮处理）| 2（每两轮处理）"
+    ],
+    "dependent_variable": "记忆质量综合分：事实提取准确率 × 跨会话一致性 × 冲突解决正确率（三项均用 evaluation 模式的 60+ 标准测试集打分）",
+    "control_group": "无记忆模式（disable memory context）下同一问题集的回答准确率",
+    "judge_type": "llm-judge（run_evaluation.py 自动打分）+ human（人工核对 3 个典型 case）"
+  },
+  "provider": {
+    "name": "任意一个已配置的提供商（kimi / siliconflow / dashscope / doubao / openrouter）",
+    "base_url": "见 env.example 与 PROVIDERS.md",
+    "model": "与所选提供商的默认模型一致",
+    "temperature_chat": 0.7,
+    "temperature_memory_update": 0.2
+  },
+  "design": {
+    "trials_per_cell": 1,
+    "expected_cells": "4（记忆模式）× 1 次完整 evaluation 运行",
+    "max_agent_steps_per_user_turn": 6,
+    "isolated_execution_per_trial": true,
+    "acceptance_independent_of_hypothesis": true,
+    "note": "教学实验，重点在理解行为而非统计检验；trials_per_cell=1 是合理的起点，增大样本量可用 --trials N"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "label": "环境验证",
+      "command": "python quickstart.py",
+      "goal": "确认 API Key、依赖、目录均正常，观察一次完整的写入→检索闭环"
+    },
+    {
+      "step": 2,
+      "label": "交互模式体验分离架构",
+      "command": "python main.py --mode interactive --user lab_user --memory-mode notes",
+      "goal": "手动输入 3 条包含偏好/事实的句子，输入 process 触发后台处理，再用 memory 查看结果"
+    },
+    {
+      "step": 3,
+      "label": "对比四种记忆格式（demo 模式）",
+      "commands": [
+        "python main.py --mode demo --memory-mode notes",
+        "python main.py --mode demo --memory-mode enhanced_notes",
+        "python main.py --mode demo --memory-mode json_cards",
+        "python main.py --mode demo --memory-mode advanced_json_cards"
+      ],
+      "goal": "对同一份对话，观察四种模式保存的记忆文件结构差异（data/memories/）"
+    },
+    {
+      "step": 4,
+      "label": "冲突与纠正测试",
+      "goal": "在 interactive 模式先说「我用 PyTorch」，处理后再说「我换成了 JAX」，触发 process，查看旧记忆是否被更新而非重复添加"
+    },
+    {
+      "step": 5,
+      "label": "evaluation 模式基准测量",
+      "command": "python main.py --mode evaluation --memory-mode advanced_json_cards",
+      "goal": "在标准测试集上获得量化分数，作为后续与其他模式比较的基线"
+    },
+    {
+      "step": 6,
+      "label": "对照组：关闭记忆",
+      "goal": "修改 ConversationConfig(enable_memory_context=False) 重跑同一问题，记录回答质量下降幅度"
+    }
+  ]
+}

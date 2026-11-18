@@ -1,0 +1,20 @@
+{
+  "experiments": [
+    "tone_casual_wiki_random_no_tool_desc",
+    "wiki_random",
+    "baseline",
+    "tone_trump_trump_tone"
+  ],
+  "success_rates": [
+    100.0,
+    100.0,
+    25.0,
+    16.666666666666664
+  ],
+  "sample_sizes": [
+    1,
+    1,
+    4,
+    6
+  ]
+}

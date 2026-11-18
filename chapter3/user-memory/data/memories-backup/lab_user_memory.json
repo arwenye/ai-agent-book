@@ -1,0 +1,38 @@
+{
+  "user_id": "lab_user",
+  "type": "notes",
+  "updated_at": "2026-11-17T14:46:21.323793",
+  "notes": [
+    {
+      "note_id": "f1af9209-6baf-4fb4-9db0-a5640f5e4146",
+      "content": "User's name is Alice.",
+      "session_id": "session-e3f74838",
+      "created_at": "2026-11-17T14:46:21.321177",
+      "updated_at": "2026-11-17T14:46:21.321196",
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "note_id": "5216fabd-6a49-4b48-82c0-4dee7a29504c",
+      "content": "Alice is a software engineer.",
+      "session_id": "session-e3f74838",
+      "created_at": "2026-11-17T14:46:21.322444",
+      "updated_at": "2026-11-17T14:46:21.322452",
+      "tags": [
+        "profession"
+      ]
+    },
+    {
+      "note_id": "12033d88-9fbd-4028-82e2-667ad2cb83a2",
+      "content": "Alice primarily codes in Python.",
+      "session_id": "session-e3f74838",
+      "created_at": "2026-11-17T14:46:21.323611",
+      "updated_at": "2026-11-17T14:46:21.323619",
+      "tags": [
+        "programming",
+        "preference"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "user_id": "quickstart_user",
+  "type": "notes",
+  "updated_at": "2026-11-17T14:29:14.127437",
+  "notes": [
+    {
+      "note_id": "08e36315-f5b9-416f-8f4a-10e43598d9fb",
+      "content": "User's name is Alex",
+      "session_id": "session-d6b0d9cb",
+      "created_at": "2026-11-17T14:26:07.816881",
+      "updated_at": "2026-11-17T14:26:07.816901",
+      "tags": [
+        "personal",
+        "name"
+      ]
+    },
+    {
+      "note_id": "a58fd924-37fe-41f2-9bff-254279ffbd3c",
+      "content": "Alex is a software developer",
+      "session_id": "session-d6b0d9cb",
+      "created_at": "2026-11-17T14:26:07.818058",
+      "updated_at": "2026-11-17T14:26:07.818068",
+      "tags": [
+        "profession",
+        "career"
+      ]
+    },
+    {
+      "note_id": "cceff3f3-f477-49da-b2f0-4e0a7fb464e7",
+      "content": "Alex loves Python and machine learning",
+      "session_id": "session-d6b0d9cb",
+      "created_at": "2026-11-17T14:26:07.819213",
+      "updated_at": "2026-11-17T14:26:07.819222",
+      "tags": [
+        "interests",
+        "programming",
+        "technical"
+      ]
+    },
+    {
+      "note_id": "26bbb3b5-dd25-49c8-a087-ad7a7ff2eb80",
+      "content": "Alex recently switched from PyTorch to JAX for better performance in their ML work",
+      "session_id": "session-d6b0d9cb",
+      "created_at": "2026-11-17T14:27:37.858803",
+      "updated_at": "2026-11-17T14:27:37.858822",
+      "tags": [
+        "technical",
+        "tools",
+        "frameworks",
+        "machine-learning"
+      ]
+    },
+    {
+      "note_id": "03212c33-8b5b-4e9f-87dc-cb800b7079a8",
+      "content": "Alex is working on a recommendation system project",
+      "session_id": "session-d6b0d9cb",
+      "created_at": "2026-11-17T14:29:14.127171",
+      "updated_at": "2026-11-17T14:29:14.127189",
+      "tags": [
+        "projects",
+        "machine-learning",
+        "work"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "user_id": "demo_user",
+  "type": "advanced_json_cards",
+  "updated_at": "2026-11-17T16:18:42.275509",
+  "categories": {
+    "personal": {
+      "user_profile_alice": {
+        "backstory": "Alice introduced herself at the start of the conversation and shared her professional role",
+        "date_created": "2025-01-15 10:00:00",
+        "person": "Alice (primary)",
+        "relationship": "primary user",
+        "name": "Alice",
+        "job_title": "Product Manager",
+        "company": "TechCorp",
+        "role_context": "Works on product management tasks including strategy, roadmaps, PRDs, stakeholder communications",
+        "_metadata": {
+          "created_at": "2026-11-17T16:18:42.272922",
+          "updated_at": "2026-11-17T16:18:42.272940",
+          "source": "session-35af5083"
+        }
+      }
+    },
+    "preferences": {
+      "technical_preferences": {
+        "backstory": "Alice explicitly stated her technical preferences early in the conversation to tailor future assistance",
+        "date_created": "2025-01-15 10:05:00",
+        "person": "Alice (primary)",
+        "relationship": "primary user",
+        "programming_language": "Python",
+        "language_use_case": "scripting",
+        "ide": "VS Code",
+        "theme_preference": "dark themes",
+        "application": "Default to Python for code examples; tailor editor advice to VS Code; note dark theme preference for UI/UX discussions",
+        "_metadata": {
+          "created_at": "2026-11-17T16:18:42.274127",
+          "updated_at": "2026-11-17T16:18:42.274136",
+          "source": "session-35af5083"
+        }
+      }
+    },
+    "work": {
+      "mobile_app_project": {
+        "backstory": "Alice mentioned she is currently working on a new mobile app project for TechCorp",
+        "date_created": "2025-01-15 10:10:00",
+        "person": "Alice (primary)",
+        "relationship": "primary user",
+        "project_type": "mobile app",
+        "company": "TechCorp",
+        "status": "active/ongoing",
+        "known_gaps": "Development stage, target platform (iOS/Android/cross-platform), app purpose, and target audience not yet specified",
+        "potential_help_areas": "PRDs, user stories, MVP scoping, prioritization frameworks (RICE/MoSCoW/Kano), KPIs, analytics, Python scripts for data analysis, launch planning",
+        "_metadata": {
+          "created_at": "2026-11-17T16:18:42.275335",
+          "updated_at": "2026-11-17T16:18:42.275344",
+          "source": "session-35af5083"
+        }
+      }
+    }
+  }
+}
