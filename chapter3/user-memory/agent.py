@@ -802,8 +802,8 @@ Current Memory Context will be provided with each message."""
                             assistant_message=final_answer
                         )
                     
-                    # Save final trajectory
-                    self._save_trajectory(iteration, final_answer)
+                    # Save final trajectory,和后面的重复了
+                    # self._save_trajectory(iteration, final_answer)
                     break  # Break when no more tool calls
                     
             except Exception as e:
