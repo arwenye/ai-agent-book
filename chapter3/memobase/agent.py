@@ -112,7 +112,8 @@ class MemoryStore:
             try:
                 with open(memory_file, 'rb') as f:
                     data = pickle.load(f)
-                    self.memories = data.get('memories', defaultdict(list))
+                    loaded = data.get('memories', {})
+                    self.memories = defaultdict(list, loaded)
                     self.clusters = data.get('clusters', [])
                     logger.info(f"Loaded {sum(len(m) for m in self.memories.values())} memories")
             except Exception as e:
