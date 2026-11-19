@@ -21,6 +21,10 @@ last_run.json
 *.mp3
 *.mp4
 
+# Local agent skill configuration (not for remote)
+CLAUDE.md
+docs/agents/
+
 # MkDocs build output
 site/
 _web/
