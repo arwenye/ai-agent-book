@@ -3,7 +3,6 @@
 [![PDF](https://img.shields.io/badge/PDF-%E4%B8%8B%E8%BD%BD-success.svg)](#-电子书) [![在线阅读](https://img.shields.io/badge/🌐_在线阅读-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/astro/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![Languages](https://img.shields.io/badge/翻译-15%20种%20语言-informational.svg)](#-电子书)
 [![Trending GitHub Project of the Day](https://img.shields.io/badge/GitHub%20Trending-Project%20of%20the%20Day-orange?logo=github)](https://github.com/trending)
 
-**中文** ← 当前 · [English](docs/en/README.md) · [Español](docs/es/README.md) · [Bahasa Indonesia](docs/id/README.md) · [العربية](docs/ar/README.md) · [繁體中文（台灣）](docs/zh-TW/README.md) · [Русский](docs/ru/README.md) · [Tiếng Việt](docs/vi/README.md) · [தமிழ்](docs/ta/README.md) · [日本語](docs/ja/README.md) · [Türkçe](docs/tr/README.md) · [한국어](docs/ko/README.md) · [Magyar](docs/hu/README.md) · [עברית](README.he.md) · [Português (Brasil)](README.ptbr.md)
 
 > 📥 **[下载 PDF / EPUB](#-电子书)**（推荐）— 推荐使用 PDF / EPUB 离线阅读，排版最佳；也可[在线阅读](https://bojieli.github.io/ai-agent-book/astro/)（支持多语言切换、章节折叠、高亮与笔记，每次推送自动更新）。
 
@@ -17,8 +16,6 @@
 >
 > 如果你看到的是旧版 PDF，建议[下载最新版 PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-zh-CN.pdf)。新版还包含许多内容修正与调整，请以最新版为准。
 
-| 📚 **10 章** 正文，从基础到生产 | 📂 **109 个** 配套实验（含本地项目与外部复现轨道） | 🌐 **15 种** 语言：中 / 英 / 西 / 印尼 / 阿 / 繁體中文（台灣） / 俄 / 泰米尔 / 越 / 日 / 土耳其 / 韩 / 匈牙利 / 希伯来 / 葡萄牙语（巴西） |
-| :---: | :---: | :---: |
 
 ## 📖 电子书
 
@@ -40,8 +37,6 @@
 > - **葡萄牙语（巴西）**（社区翻译，by [@leofn](https://github.com/leofn)，配图翻译 by [@LibnaRaffaely](https://github.com/LibnaRaffaely)）：[PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-ptbr.pdf) · [EPUB](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-ptbr.epub)
 >
 > 🌐 也可[在线阅读](https://bojieli.github.io/ai-agent-book/astro/) — 支持多语言切换、章节折叠、高亮与笔记、配套实验直达，每次 main 分支推送后自动重新构建。
-
-中文正文源码位于 [`book/`](book/)；英文/西班牙语/印度尼西亚语/阿拉伯语/繁體中文（台灣）/俄语/泰米尔/越南语/日语/土耳其语/韩语/匈牙利语/希伯来语/葡萄牙语（巴西）版本为社区贡献（可能滞后于中文原版），分别位于 [`book-en/`](book-en/)、[`book-es/`](book-es/)、[`book-id/`](book-id/)、[`book-ar/`](book-ar/)、[`book-zhtw/`](book-zhtw/)、[`book-ru/`](book-ru/)、[`book-ta/`](book-ta/)、[`book-vi/`](book-vi/)、[`book-ja/`](book-ja/)、[`book-tr/`](book-tr/)、[`book-ko/`](book-ko/)、[`book-hu/`](book-hu/)、[`book-he/`](book-he/)、[`book-ptbr/`](book-ptbr/)。
 
 <details>
 <summary><b>🔧 想自行编译 PDF / EPUB？</b>（PDF 需 pandoc / xelatex / ElegantBook）</summary>
