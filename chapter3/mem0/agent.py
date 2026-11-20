@@ -166,7 +166,9 @@ class Mem0Agent:
             "embedder": {
                 "provider": "openai",
                 "config": {
-                    "model": self.config.mem0.embedding_model
+                    "model": self.config.mem0.embedding_model,
+                    "api_key": self.config.mem0.embedding_api_key or "EMPTY",
+                    "openai_base_url": self.config.mem0.embedding_base_url or None,
                 }
             }
         }

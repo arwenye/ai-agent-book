@@ -82,6 +82,8 @@ class Mem0Config:
     backend: str = field(default_factory=lambda: os.getenv("MEMORY_BACKEND", "local"))
     collection_name: str = field(default_factory=lambda: os.getenv("MEMORY_COLLECTION", "locomo_benchmark"))
     embedding_model: str = field(default_factory=lambda: os.getenv("MEMORY_EMBEDDING_MODEL", "text-embedding-3-small"))
+    embedding_api_key: str = field(default_factory=lambda: os.getenv("EMBEDDING_API_KEY", ""))
+    embedding_base_url: str = field(default_factory=lambda: os.getenv("EMBEDDING_BASE_URL", ""))
     vector_store_config: Dict[str, Any] = field(default_factory=dict)
     
     def __post_init__(self):
